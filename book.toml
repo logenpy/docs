@@ -1,0 +1,8 @@
+[book]
+authors = ["Resonaa"]
+language = "en"
+src = "src"
+title = "polygen Documentation"
+
+[output.html]
+git-repository-url = "https://github.com/logenpy/docs"

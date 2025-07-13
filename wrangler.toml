@@ -1,0 +1,13 @@
+name = "polygen-docs"
+compatibility_date = "2025-07-13"
+workers_dev = false
+
+[env.production]
+routes = [{ pattern = "docs.161.moe", custom_domain = true }]
+
+[env.development]
+routes = [{ pattern = "docs.dev.161.moe", custom_domain = true }]
+
+[assets]
+directory = "./book/"
+not_found_handling = "single-page-application"
